@@ -1,0 +1,15 @@
+mkdir StudentManagement
+cd StudentManagement
+echo Student Management System > README.txt
+echo Student details > Student.txt
+git init
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git status
+git add .
+git commit -m "Initial commit"
+echo New student added >> Student.txt
+git diff
+git add .
+git commit -m "Updated student details"
+git status
